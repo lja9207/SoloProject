@@ -1,8 +1,13 @@
 <template>
-  
-  <div class="home">
-    <Nav></Nav>
-    <h1>{{ msg }}</h1>
+  <div id="app">
+      <!-- <div id="img"><img src="/assets/pic1.jpg" title="title" width=100% height=100%></div>
+      <div id="msg">
+        <h1> {{ msg }} </h1>
+      </div> -->
+      <!-- <router-view/> -->
+      <!-- <Nav></Nav> -->
+      <JumboTron></JumboTron>
+
   </div>
 </template>
 
@@ -25,22 +30,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-} */
 
-h1{
-  
-}
 </style>
